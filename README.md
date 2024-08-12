@@ -32,3 +32,5 @@ Kicad Resources:
     │P5 │   │LCrl│GUI │LAlt│         Space          │RAlt│ Fn │Menu│RCrl││ ← ││ ↓ ││ → │
     └───┘   └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘└───┘└───┘└───┘
 ```
+
+Will add 4x3 number keypad and rotary encoder which attaches via a 5x2 ribbon cable but might need more gpio pin, another process for this version?
