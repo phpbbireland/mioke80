@@ -11,7 +11,7 @@ QMK code tested on Blackpill 411 Dev Board... working 11th August 2024
 
 Note: *kicad2* folder contains working test copy, files will be moved to **kicad** once testing complete...  
 
-Kicad Resources:
+Kicad Resources:  
 [https://github.com/ebastler/marbastlib](https://github.com/ebastler/marbastlib)  
 [https://github.com/joe-scotto/scottokeebs](https://github.com/joe-scotto/scottokeebs)
 
