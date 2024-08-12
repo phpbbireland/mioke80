@@ -15,7 +15,7 @@ Kicad Resources:
 [https://github.com/ebastler/marbastlib](https://github.com/ebastler/marbastlib)
 [https://github.com/joe-scotto/scottokeebs](https://github.com/joe-scotto/scottokeebs)
 
-/*
+```
       0       1    2    3   4   5   6    7   8   9  10   11  12  13  14   15   16   17
     ┌───┐   ┌───┐┌───┐┌───┬───┬───┬───┐┌───┬───┬───┬───┐┌───┬───┬───┬───┐┌───┐┌───┐┌───┐
     │Rst│   │Esc││P 6││F1 │F2 │F3 │F4 ││F5 │F6 │F7 │F8 ││F9 │F10│F11│F12││PrL││SL ││Pse│
@@ -31,4 +31,4 @@ Kicad Resources:
     ├───┤   ├────┬───┴┬──┴─┬─┴───┴───┴───┴───┴───┴──┬┴───┼───┴┬────┬────┤├───┤├───┤├───┤
     │P5 │   │LCrl│GUI │LAlt│         Space          │RAlt│ Fn │Menu│RCrl││ ← ││ ↓ ││ → │
     └───┘   └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘└───┘└───┘└───┘
-*/
+```
