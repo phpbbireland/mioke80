@@ -1,4 +1,4 @@
-# mioke80
+# mioke80 / ayla_411
 QMK Based Open Hardware Keyboard with 99 Keys
 
 Just another open source / open hardware ~80% keyboard...
