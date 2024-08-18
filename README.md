@@ -34,3 +34,6 @@ Kicad Resources:
 ```
 
 Will add 4x3 number keypad and rotary encoder which attaches via a 5x2 ribbon cable but might need more gpio pin, another process for this version?
+
+**Note**
+Some GPIO pins may change as it appears some can't be used (according to sources)...
