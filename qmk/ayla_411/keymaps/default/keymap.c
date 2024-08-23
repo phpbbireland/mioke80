@@ -142,7 +142,7 @@ R9    │Llt│ │S P│ │Rlt│ │Fn │ │Men│ │Rtr│ │ ← │ �
 
 
 
-    /*  Row:    0        1        2          3        4         5        6         7        8        9  */
+    /*  Row:    0        1        2          3        4         5         6         7        8        9  */
     [_BASE] = LAYOUT_401(
                 KC_TRNS, KC_ESC,  KC_F1,     KC_F2,   KC_F3,    KC_F4,    KC_F5,    KC_F6,   KC_F7,   KC_F8,
                 KC_F9,   KC_F10,  KC_F11,    KC_F12,  KC_PSCR,  KC_SCRL,  KC_PAUSE, KC_TRNS, KC_GRV,  KC_1,
