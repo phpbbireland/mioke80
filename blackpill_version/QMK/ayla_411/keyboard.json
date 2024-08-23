@@ -15,7 +15,6 @@
     },
     "indicators": {
         "caps_lock": "A10",
-        //"scroll_lock": "",
         "on_state": 1
     },
     "matrix_pins": {
