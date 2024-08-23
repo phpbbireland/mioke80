@@ -17,8 +17,8 @@
 #pragma once
 
 /* key matrix size */
-#define MATRIX_ROWS 6
-#define MATRIX_COLS 18
+#define MATRIX_ROWS 10
+#define MATRIX_COLS 10
 
 #define RGB_TRIGGER_ON_KEYDOWN
 
