@@ -149,7 +149,7 @@ R9    │Llt│ │S P│ │Rlt│ │Fn │ │Men│ │Rtr│ │ ← │ �
                 KC_H,    KC_J,    KC_K,      KC_L,    KC_SCLN,  KC_QUOT, KC_TILDE, KC_ENT,  KC_TRNS, KC_TRNS,
                 KC_TRNS, KC_LSFT, KC_BSLS,   KC_Z,    KC_X,     KC_C,    KC_V,     KC_B,    KC_N,    KC_M,
                 KC_COMM, KC_DOT,  KC_SLSH,   KC_RSFT, KC_TRNS,  KC_UP,   KC_TRNS,  KC_TRNS, KC_LCTL, KC_LGUI,
-                KC_LALT, KC_SPC,  KC_RALT,   MO(_FN), KC_MENU,  KC_RCTL, KC_LEFT,  KC_DOWN, KC_RIGHT
+                KC_LALT, KC_SPC,  KC_RALT,   MO(_FN), KC_MENU,  KC_RCTL, KC_LEFT,  KC_DOWN, KC_RIGHT, KC_TRNS,
                 ),
 
     /*  Row:    0        1        2        3        4        5        6        7        8        9  */
