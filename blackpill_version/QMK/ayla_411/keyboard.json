@@ -10,16 +10,23 @@
         "console": false,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true,
-        "rgb_matrix": true
+        "nkro": true
+
+    },
+    "qmk": {
+        "locking": {
+            "enabled": true,
+            "resync": true
+        }
     },
     "indicators": {
         "caps_lock": "A10",
+        //"scroll_lock": "",
         "on_state": 1
     },
     "matrix_pins": {
-        "cols": ["A14", "A15", "B3", "B4", "B5", "B6", "B12", "B13", "B14", "B15" ],
-        "rows": ["A0", "A1", "A2", "A3", "A8", "A13", "B7", "C13", "C14", "C15"]
+        "cols": ["C13", "C14", "C15", "A0", "A15", "A2", "A3", "B0", "B1", "B10" ],
+        "rows": ["A8",  "B14",  "B15", "B3", "B4", "B5", "B7", "B6", "B8", "B9"]
     },
 
     "url": "",
@@ -54,7 +61,7 @@
                 {"label": "!",     "matrix": [1, 9],  "x": 2.25,  "y": 1},
 
                 {"label": "'", "matrix": [2, 0],  "x": 3.25,   "y": 1},
-                {"label": "€", "matrix": [2, 1],  "x": 4.25,   "y": 1},
+                {"label": "#", "matrix": [2, 1],  "x": 4.25,   "y": 1},
                 {"label": "$", "matrix": [2, 2],  "x": 5.25,   "y": 1},
                 {"label": "%", "matrix": [2, 3],  "x": 6.25,   "y": 1},
                 {"label": "^", "matrix": [2, 4],  "x": 7.25,   "y": 1},
