@@ -163,5 +163,5 @@ R8    │ , │ │ . │ │ / │ │Rsh│ │M5 │ │ ↑ │ │M6 │ �
 R9    │Llt│ │S P│ │Rlt│ │Fn │ │Men│ │Rct│ │ ← │ │ ↓ │ │ → │ │SPA│
       └───┘ └───┘ └───┘ └───┘ └───┘ └───┘ └───┘ └───┘ └───┘ └───┘
 
-      KC_NUHS same as  KC_TILDE, ALGR(KC_3)
+      KC_NUHS (ISO) same as  KC_TILDE, ALGR(KC_3)
 */
