@@ -58,19 +58,19 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record)
         case P1:
             if(record->event.pressed)
             {
-                SEND_STRING(SS_DOWN(X_LGUI) SS_TAP(X_R) SS_UP(X_LGUI) SS_DELAY(50) "1306" SS_TAP(X_ENTER));
+                SEND_STRING(SS_DOWN(X_LGUI) SS_TAP(X_R) SS_UP(X_LGUI) SS_DELAY(50) "passwrd1" SS_TAP(X_ENTER));
             }
             break;
         case P2:
             if(record->event.pressed)
             {
-                SEND_STRING(SS_DOWN(X_LGUI) SS_TAP(X_R) SS_UP(X_LGUI) SS_DELAY(50) "130656" SS_TAP(X_ENTER));
+                SEND_STRING(SS_DOWN(X_LGUI) SS_TAP(X_R) SS_UP(X_LGUI) SS_DELAY(50) "passwrd2" SS_TAP(X_ENTER));
             }
             break;
         case P3:
             if(record->event.pressed)
             {
-                SEND_STRING(SS_DOWN(X_LGUI) SS_TAP(X_R) SS_UP(X_LGUI) SS_DELAY(50) "LetMein" SS_TAP(X_ENTER));
+                SEND_STRING(SS_DOWN(X_LGUI) SS_TAP(X_R) SS_UP(X_LGUI) SS_DELAY(50) "open_sesame" SS_TAP(X_ENTER));
             }
             break;
     }
