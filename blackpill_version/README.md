@@ -13,9 +13,16 @@ Software 75% complete (no macros yet)...
 The original 18x6 matrix code was tested on Blackpill 411 Dev Board... working 11th August 2024  
 
 The QMK folder for reference only, it's my local copy for building (not part of the main qmk_firmware repository).
-Perhaps some day, if I get this complete...
+Perhaps some day, if I get this complete...  
 
-Work in progress...  
+**Status**
++ Designed a prototype PCB using an STM32 411 Blackpill for testing... ***complete***
++ Test prototype PCB and initial keyboard code... ***complete, 100% working***
++ Write and test RGB code... ***in progress***
++ I will proceed to a fully assembled PCB using the STM32F072CBT6 and associated components.
+
+The keyboard code was simple enough but RGB code looks a little more involved...  
+  
 **Col/Row**
 ```
     ┌───┐   ┌───┐┌───┐┌───┬───┬───┬───┐┌───┬───┬───┬───┐┌───┬───┬───┬───┐┌───┐┌───┐┌───┐
