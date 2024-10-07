@@ -8,7 +8,8 @@
 * Hardware Supported: [Hackaday](https://hackaday.io/project/197065-mioke80-iso-ansi-99-key-80-keyboard)
 * Hardware Availability: *Once complete and 100% working, I will supply Links to where you can find this hardware*
 
-* This keyboard is similar to others in QMK keyboard directory, except it includes dedicated marco keys and optional rotary encoder.  
+This keyboard is similar to others in QMK keyboard directory, except it includes dedicated Marco keys and optional rotary encoder for volume etc...
+I have not attempted to add it to QMK, I am not familiar with the process, perhaps later...
 
 Make example for this keyboard (after setting up your build environment):
 
