@@ -1,0 +1,15 @@
+VIA_ENABLE = yes
+LTO_ENABLE = yes
+ENCODER_MAP_ENABLE = yes
+BOARD = BLACKPILL_STM32_F411
+BOOTLOADER = stm32-dfu
+
+BOOTMAGIC_ENABLE = yes
+NKRO_ENABLE = yes
+VELOCIKEY_ENABLE=yes
+
+
+#Ref: https://docs.qmk.fm/features/rgblight
+
+RGBLIGHT_ENABLE = yes
+#WS2812_DRIVER_REQUIRED = yes
