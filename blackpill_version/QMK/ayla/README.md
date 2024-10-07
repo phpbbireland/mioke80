@@ -5,9 +5,10 @@
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [Mike](https://github.com/phpbbireland)
-* Hardware Supported: *TBA (The PCBs, controllers supported)*
-* Supported: [Hackaday](https://hackaday.io/project/197065-mioke80-iso-ansi-99-key-80-keyboard)
-* Hardware Availability: *TBA (Links to where you can find this hardware)*
+* Hardware Supported: [Hackaday](https://hackaday.io/project/197065-mioke80-iso-ansi-99-key-80-keyboard)
+* Hardware Availability: *Once complete and 100% working, I will supply Links to where you can find this hardware*
+
+* This keyboard is similar to others in QMK keyboard directory, except it includes dedicated marco keys and optional rotary encoder.*  
 
 Make example for this keyboard (after setting up your build environment):
 
