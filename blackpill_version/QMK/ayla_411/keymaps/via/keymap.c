@@ -48,10 +48,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        Note for ISO layout, the forward slash has moved to right side beside back slash (KC_SLSH, KC_BSLS, KC_RSFT), this allows for a larger left shift...
        see https://github.com/phpbbireland/mioke80/blob/main/blackpill_version/images/ayla80v2.png
        For ANSI layout, this may/will change...
+
+       * LAYOUT name i.e. "LAYOUT_411_iso" should match in keyboard.json file *
     */
 
     /*  Row:    0        1        2          3        4         5         6         7        8        9 */
-    [_BASE] = LAYOUT_411(
+    [_BASE] = LAYOUT_411_iso(
                 KC_TRNS, KC_ESC,  KC_F1,     KC_F2,   KC_F3,    KC_F4,    KC_F5,    KC_F6,   KC_F7,   KC_F8,
                 KC_F9,   KC_F10,  KC_F11,    KC_F12,  KC_PSCR,  KC_SCRL,  KC_PAUSE, KC_TRNS, KC_GRV,  KC_1,
                 KC_2,    KC_3,    KC_4,      KC_5,    KC_6,     KC_7,     KC_8,     KC_9,    KC_0,    KC_MINS,
@@ -64,7 +66,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                 KC_LALT, KC_SPC,  KC_RALT,   MO(_FN), KC_MENU,  KC_RCTL,  KC_LEFT,  KC_DOWN, KC_RIGHT
                 ),
 
-    [_FN]   = LAYOUT_411(
+    [_FN]   = LAYOUT_411_iso(
                 QK_BOOT, _______, _______, _______, _______, _______, _______, _______, _______, _______,
                 _______, _______, _______, _______, RGB_TOG, RGB_HUI, RGB_HUD, _______, _______, P1,
                 P2,      P3,      _______, _______, _______, _______, _______, _______, _______, _______,
@@ -85,13 +87,13 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record)
         case P1:
             if(record->event.pressed)
             {
-                SEND_STRING(SS_DOWN(X_LGUI) SS_TAP(X_R) SS_UP(X_LGUI) SS_DELAY(50) "passwrd1" SS_TAP(X_ENTER));
+                SEND_STRING(SS_DOWN(X_LGUI) SS_TAP(X_R) SS_UP(X_LGUI) SS_DELAY(50) "1306" SS_TAP(X_ENTER));
             }
             break;
         case P2:
             if(record->event.pressed)
             {
-                SEND_STRING(SS_DOWN(X_LGUI) SS_TAP(X_R) SS_UP(X_LGUI) SS_DELAY(50) "passwrd2" SS_TAP(X_ENTER));
+                SEND_STRING(SS_DOWN(X_LGUI) SS_TAP(X_R) SS_UP(X_LGUI) SS_DELAY(50) "130656" SS_TAP(X_ENTER));
             }
             break;
         case P3:
