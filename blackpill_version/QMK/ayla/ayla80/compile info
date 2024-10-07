@@ -1,1 +1,21 @@
 See: make commands to use in /home/Mike/qmk_firmware/keyboards/ayla/
+
+========================================================
+Notes on make:
+
+Change to ~/qmk_firmware folder and open termnal there...
+Enter one of the following commands...
+
+make ayla_ayla80:via or 
+make ayla_ayla75:via or 
+make ayla_ayla100:via or
+
+tested make with: make ayla/ayla80:via
+
+make created: ayla_ayla80_via.bin
+
+Then with keyboard in DFU mode use:
+
+./flash.sh ayla_ayla80_via.bin
+
+========================================================
