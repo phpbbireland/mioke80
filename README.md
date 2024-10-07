@@ -12,7 +12,7 @@ QMK/VIA code tested on Blackpill 411 Dev Board (see blackpill_version)... workin
 My main test code is now in /blackpill_version/QMK/ayla/ayla80  
 
 I have designed a new test board using the STM32F411RETx, it contains all the necessary keyboard electronics (except for the key switches, matrix diodes and RGB leds as these are on
-the actual keyboard PCB I built earlier. Connection between boards is via 30 pin 1.27" pitch header connector.  
+the actual keyboard PCB from the first prototype). Connection between boards is via 30 pin 1.27" pitch header connector.  
 
 Note: *kicad2* folder contains working test copy, files will be moved to **kicad** once testing complete...  
 
