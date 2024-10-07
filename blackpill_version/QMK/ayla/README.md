@@ -6,6 +6,7 @@
 
 * Keyboard Maintainer: [Mike](https://github.com/phpbbireland)
 * Hardware Supported: *TBA (The PCBs, controllers supported)*
+* Supported: *https://hackaday.io/project/197065-mioke80-iso-ansi-99-key-80-keyboard*
 * Hardware Availability: *TBA (Links to where you can find this hardware)*
 
 Make example for this keyboard (after setting up your build environment):
