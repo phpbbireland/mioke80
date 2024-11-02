@@ -1,12 +1,13 @@
 {
   "name": "Ayla Keyboard",
-  "vendorProductId": ????,
+  "vendorId": "FEED",
+  "productId": "6179",
   "version": 1,
   "keyboard": "alya_411",
   "keymap": "ayla_411_via",
   "macros": [
-    "130656{KC_ENT}",
-    "1306{KC_ENT}",
+    "Macro1{KC_ENT}",
+    "Macro2{KC_ENT}",
     "",
     "",
     "",
