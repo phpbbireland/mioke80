@@ -18,7 +18,7 @@ Perhaps some day, if I get this complete...
 **Status**
 + Designed a prototype PCB using an STM32 411 Blackpill for testing... ***complete***
 + Test prototype PCB and initial keyboard code... ***complete, 100% working***
-+ Now loads in usevia.app ***(I removed unnecessary files but RGB and Encodr need work)***
++ Now loads in usevia.app ***(I removed unnecessary files... RGB and Encoder require lots more work)***
 + Write and test RGB code... ***in progress***
 + I will proceed to a fully assembled PCB using the STM32F072CBT6 and associated components.
 
