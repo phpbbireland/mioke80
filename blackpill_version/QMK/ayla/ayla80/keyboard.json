@@ -1,9 +1,18 @@
 {
-    "manufacturer": "phpbbireland",
-    "keyboard_name": "ayla80",
+    "manufacturer": "Mioke",
+    "keyboard_name": "ayla99",
+    "url": "",
     "maintainer": "phpbbireland",
     "development_board": "blackpill_f411",
+
+    "bootloader": "stm32-dfu",
     "diode_direction": "COL2ROW",
+
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x6179",
+        "vid": "0xFEED"
+    },
     "features": {
         "bootmagic": true,
         "command": false,
@@ -11,7 +20,6 @@
         "extrakey": true,
         "mousekey": true,
         "nkro": true
-
     },
     "qmk": {
         "locking": {
@@ -19,20 +27,16 @@
             "resync": true
         }
     },
+    "dynamic_keymap": {
+        "layer_count": 4
+    },
     "indicators": {
-        "caps_lock": "A10",
+        "caps_lock": "B2",
         "on_state": 1
     },
     "matrix_pins": {
         "cols": ["C13", "C14", "C15", "A0", "A15", "A2", "A3", "B0", "B1", "B10" ],
         "rows": ["A8",  "B14",  "B15", "B3", "B4", "B5", "B7", "B6", "B8", "B9"]
-    },
-
-    "url": "",
-    "usb": {
-        "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
     },
     "layouts": {
         "LAYOUT_411_iso": {
