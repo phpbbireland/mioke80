@@ -1,0 +1,11 @@
+{
+    "keyboard_name": "ayla80",
+    "manufacturer": "Mioke",
+    "url": "",
+    "maintainer": "phpbbireland",
+    "usb": {
+        "pid": "0x6179",
+        "vid": "0xFEED",
+        "device_version": "0.0.1"
+    }
+}
