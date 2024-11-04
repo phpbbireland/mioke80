@@ -1,5 +1,5 @@
-# Moving to all files/repo to mioke repo  
-The new repo wil correct directory structure for this project...
+# Moving this repo to phpbbireland/mioke  
+The new repo wil correct directory structure for this project... this repo will be deleted...
 
 # mioke80 / ayla_411
 QMK Based Open Hardware Keyboard with 99 Keys and Via Support
